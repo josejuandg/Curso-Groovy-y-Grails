@@ -1,5 +1,7 @@
 package practica
 
+
+
 class Persona
 {
     String nombre
@@ -7,6 +9,7 @@ class Persona
     String apellidoMaterno
     Date fechaNacimiento
     Integer edad
+
 
     static constraints = {
         nombre nullable: true, blank: false
